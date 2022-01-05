@@ -8,3 +8,5 @@ new_project_code = "8" + project_codes_to_replace[1:]
 nexus_api_key_file = "/home/aled/Documents/.dnanexus_auth_token"
 with open(nexus_api_key_file, "r") as nexus_api:
 	Nexus_API_Key = nexus_api.readline().rstrip()
+
+project_list = '/home/aled/Documents/200619_nexus_archival/220105_project_list.txt'
